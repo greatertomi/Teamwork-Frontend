@@ -1,22 +1,32 @@
-.App {
-  text-align: center;
+.navLink {
+  color: #b7babd !important;
+  margin-right: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
+.active {
+  color: white !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputLabel {
+  font-weight: 700;
 }
 
-.App-link {
-  color: #09d3ac;
+#bodyDiv {
+  margin: auto;
+  margin-top: 70px;
+}
+
+.card {
+  width: 18rem;
+  margin: auto;
+}
+
+.card button {
+  width: 100%;
+  border: 0;
+}
+
+#adminLoginHeader {
+  margin-left: 42%;
+  font-size: 28px;
 }
